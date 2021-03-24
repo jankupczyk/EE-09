@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STACJA PALIW</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+
+<body>
+
+    <div id="baner-lewy">
+        <h1>Stacja paliw</h1>
+    </div>
+
+    <div id="baner-prawy">
+        <a href="index.html">
+            <img src="home.png" alt="">
+        </a>
+        <a href="obliczenia.html">
+            <img src="znak.png" alt="">
+        </a>
+    </div>
+
+    <main>
+        <h3>Oblicz koszt paliwa</h3>
+
+        <label for="rodzajPaliwa">Rodzaj paliwa (1-benzyna, 2-olej napędowy): </label><br>
+        <input type="number" name="" id="rodzajPaliwa"><br><br>
+        <label for="litry">Ile litrów: </label><br>
+        <input type="number" id="litry"><br>
+        <br>
+        <button onclick="obliczcenepaliwa()">OBLICZ</button>
+        <span id="koncowacenapaliwa"></span>
+    </main>
+
+    <div id="blok-lewy">
+        <a href="kwerendy.txt" download="kwerendy">Pobierz kwerendy</a>
+    </div>
+
+    <div id="blok-prawy">
+        <img src="samochod.png" alt="samochód">
+    </div>
+
+
+
+
+    <footer id="">
+        <p>&copy; Stronę wykonał: Jan Kupczyk 4TID</p>
+    </footer>
+
+
+    <script>
+        function obliczcenepaliwa() {
+            var rodzaj = document.getElementById('rodzajPaliwa').value;
+            rodzaj = parseFloat(rodzaj);
+            var ilosc = document.getElementById('litry').value;
+            ilosc = parseFloat(ilosc);
+            var koszt = 0;
+            switch (rodzaj) {
+                case 1:
+                    koszt = ilosc * 4;
+                    break;
+
+                case 2:
+                    koszt = ilosc * 3.5;
+                    break;
+                default:
+                    koszt - 0;
+                    break;
+            }
+            document.getElementById('koncowacenapaliwa').innerHTML = "Koszt paliwa &#8594; " + koszt + " zł";
+        }
+    </script>
+</body>
+
+</html>

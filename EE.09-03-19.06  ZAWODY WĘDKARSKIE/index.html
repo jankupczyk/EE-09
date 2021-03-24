@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wędkowanie-moje hobby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="blok1">
+            <img src="zawody.jpg" alt="zawody wędkarskie">
+        </div>
+        <div id="blok2">
+            <h1>Zawody wędkarskie</h1>
+        </div>
+        <div id="blok3">
+            <a href="kwerendy.txt" download="kwerendy.txt">Pobierz plik</a>
+        </div>
+    </header>
+    <main>
+        <h2>Dodaj nowe zawody wędkarskie</h2>
+        <form action="zgloszenie.php" method="POST">
+
+            <label for="lowiskoID">Łowisko: <br><input type="number" name="lowisko" id="lowiskoID"></label><br>
+
+            <label for="dataID">Data (rrrr-mm-dd): <br><input type="text" name="data" id="dataID"></label><br>
+
+            <label for="sedziaID">Sędzia: <br><input type="text" name="sedzia" id="sedziaID"></label><br>
+            <br>
+            <input type="reset" value="WYCZYŚĆ">
+            <input type="submit" value="DODAJ">
+
+        </form>
+        <h2>Łowiska</h2>
+        <ol>
+            <li>Zalew wędkarski</li>
+            <li>Zbiornik bukówka</li>
+            <li>Jezioro bartbetowskie</li>
+            <li>Warta-Obrzycka</li>
+        </ol>
+    </main>
+
+    <footer>
+        <p>Stronę przygotował: Jan Kupczyk 4TID</p>
+    </footer>
+
+
+
+</body>
+
+</html>
