@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #2f2f2f;
+    margin: 0;
+}
+header > div,
+main > div {
+    float: left;
+}
+
+#b1 {
+    background-color: #dcdcdc;
+    width: 55%;
+    height: 80px;
+    text-align: center;
+}
+#b2, #b3, #b4 {
+    background-color: #dcdcdc;
+    width: 15%;
+    height: 80px;
+}
+#lewy {
+    background-color: #808080;
+    width: 30%;
+    height: 450px;
+}
+#prawy {
+    background-color: #808080;
+    width: 70%;
+    height: 450px;
+}
+footer {
+    background-color: #dcdcdc;
+    text-align: center;
+}
+h5 {
+    color: #808080;
+    border: 1px solid #808080;
+    margin: 7px;
+    padding: 10px;
+    font-size: 80%;
+}
+input {
+    color: grey;
+}

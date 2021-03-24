@@ -1,0 +1,4 @@
+1. SELECT nazwisko, rok_urodzenia FROM `matematycy`
+2. SELECT id,imie,nazwisko FROM `matematycy` WHERE liczba_publikacji BETWEEN 5 AND 20
+3. SELECT * FROM `matematycy` where rok_urodzenia > 1800 ORDER By liczba_publikacji DESC LIMIt 1
+4. DROP TABLE `typy`
