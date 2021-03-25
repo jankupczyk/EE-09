@@ -1,2 +1,2 @@
-# EE09 PRAKTYCZNY
-Rozwiązania do starych arkuszy egzaminacyjnych (EE09)
+# EE09
+Rozwiązania do starych arkuszy egzaminacyjnych (EE09, E14)
