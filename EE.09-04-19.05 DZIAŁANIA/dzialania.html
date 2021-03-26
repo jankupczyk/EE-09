@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Działania matematyczne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="b1">
+            <img src="logo.jpg" alt="Matematyka">
+        </div>
+
+        <div class="b2">
+            <h1>Pomocnik matematyczny</h1>
+        </div>
+
+        <div class="b3">
+            <a href="dzialania.html">
+                <h4>Działania</h4>
+            </a>
+        </div>
+
+        <div class="b4">
+            <a href="mnozenie.html">
+                <h4>Tabliczka mnożenia</h4>
+            </a>
+        </div>
+
+
+
+    </header>
+
+
+
+    <main>
+        <div class="lewy">
+            <h3>Proste działania</h3>
+            <label for="liczbaA">liczby A: <input type="number" id="liczbaA"></label><br>
+            <label for="liczbaB">liczba B: <input type="number" id="liczbaB"></label><br>
+            <br>
+            <button onclick="dodawanie()">+</button>
+            <button onclick="odejmowanie()">-</button>
+            <button onclick="mnozenie()">*</button>
+            <button onclick="dzielenie()">/</button>
+            <button onclick="potegowanie()">A^B</button>
+
+        </div>
+
+
+        <div class="prawy">
+            <ul>
+                <li>dodawanie</li>
+                <li>odejmowanie</li>
+                <li>mnożenie</li>
+                <li>dzielenie</li>
+                <li>potęgowanie</li>
+            </ul>
+            <br><span id="wynik"></span>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>Autor: Jan Kupczyk 4TID</p>
+    </footer>
+
+    <script>
+        function dodawanie() {
+            var liczbaA = document.getElementById('liczbaA').value;
+            var liczbaA = parseInt(liczbaA);
+            var liczbaB = document.getElementById('liczbaB').value;
+            var liczbaB = parseInt(liczbaB);
+            var wynik = liczbaA + liczbaB;
+            document.getElementById('wynik').innerText = `Wynik dodawania to ${wynik}`;
+        }
+
+        function odejmowanie() {
+            var liczbaA = document.getElementById('liczbaA').value;
+            var liczbaA = parseInt(liczbaA);
+            var liczbaB = document.getElementById('liczbaB').value;
+            var liczbaB = parseInt(liczbaB);
+            var wynik = liczbaA - liczbaB;
+            document.getElementById('wynik').innerText = `Wynik odejmowania to ${wynik}`;
+        }
+
+        function mnozenie() {
+            var liczbaA = document.getElementById('liczbaA').value;
+            var liczbaA = parseInt(liczbaA);
+            var liczbaB = document.getElementById('liczbaB').value;
+            var liczbaB = parseInt(liczbaB);
+            var wynik = liczbaA * liczbaB;
+            document.getElementById('wynik').innerText = `Wynik mnozenia to ${wynik}`;
+        }
+
+        function dzielenie() {
+            var liczbaA = document.getElementById('liczbaA').value;
+            var liczbaA = parseInt(liczbaA);
+            var liczbaB = document.getElementById('liczbaB').value;
+            var liczbaB = parseInt(liczbaB);
+            var wynik = liczbaA / liczbaB;
+            document.getElementById('wynik').innerText = `Wynik dzielenia to ${wynik}`;
+        }
+
+        function potegowanie() {
+            var liczbaA = document.getElementById('liczbaA').value;
+            var liczbaA = parseInt(liczbaA);
+            var liczbaB = document.getElementById('liczbaB').value;
+            var liczbaB = parseInt(liczbaB);
+            var wynik = liczbaA ** liczbaB;
+            document.getElementById('wynik').innerText = `Wynik potęgowania to ${wynik}`;
+        }
+    </script>
+
+</body>
+
+</html>
