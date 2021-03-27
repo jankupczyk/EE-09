@@ -56,10 +56,18 @@
     <script>
         function obliczcene() {
             var cena = 0;
-            if (document.getElementById("pil").checked) cena += 45;
-            if (document.getElementById("mas").checked) cena += 30;
-            if (document.getElementById("mat").checked) cena += 20;
-            if (document.getElementById("reb").checked) cena += 5;
+            if (document.getElementById('pil').checked) {
+                cena = 45;
+            }
+            if (document.getElementById('mas').checked) {
+                cena = 30;
+            }
+            if (document.getElementById('mat').checked) {
+                cena = 20;
+            }
+            if (document.getElementById('reb').checked) {
+                cena = 5;
+            }
             document.getElementById('wynik').innerText = `Cena zabiegów: ${cena}`;
         }
     </script>
