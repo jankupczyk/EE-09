@@ -1,0 +1,44 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia;
+}
+
+.baner {
+	background: #3cb371;
+	color: white;
+	height: 100px;
+	width: 40%;
+	float: left;
+}
+
+.baner:nth-child(3) {
+	width: 20%;
+}
+
+.dzien {
+	background: #ffdab9;
+	width: 170px;
+	height: 90px;
+	margin: 5px;
+	border: 1px solid #3cb371;
+	float: left;
+}
+
+.stopka {
+	background: #3cb371;
+	color: white;
+	clear: both;
+}
+
+h6 {
+	text-align: right;
+}
+
+form {
+	padding: 30px;
+}

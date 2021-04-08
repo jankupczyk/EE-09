@@ -1,0 +1,7 @@
+zapytanie 1: INSERT INTO `czytelnicy`(`imie`, `nazwisko`, `kod`) VALUES ('Anna','Michalak','an05mi')
+
+zapytanie 2: select imie,nazwisko from czytelnicy
+
+zapytanie 3: SELECT tytul from ksiazki, autorzy where autorzy.nazwisko='fredro' and autorzy.id = ksiazki.id_autor
+
+zapytanie 4: SELECT nazwisko,count(ksiazki.id_autor) as 'ilosc' from autorzy, ksiazki GROUP by nazwisko
