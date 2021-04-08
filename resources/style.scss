@@ -141,7 +141,7 @@ ul {
     -moz-transform: rotate(45deg);
     background-color: #2d2d2d;
     color: aliceblue;
-    z-index: 9;
+    z-index: 2;
     transition: ease-in 0.3s;
 }
 
@@ -151,8 +151,6 @@ ul {
     -webkit-box-shadow: 7px 9px 11px 0px rgba(0, 0, 0, 0.77);
     -moz-box-shadow: 7px 9px 11px 0px rgba(0, 0, 0, 0.77);
 }
-
-
 
 
 @-webkit-keyframes breathing {

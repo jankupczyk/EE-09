@@ -1,7 +1,7 @@
 * {
   margin: 0 auto;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0 auto;
   scroll-behavior: smooth;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,11 +22,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .EE09,
@@ -75,26 +75,26 @@ ul {
   padding: 2rem;
 }
 
-.egzamin > ul {
+.egzamin>ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
 }
 
-.egzamin > ul > li {
+.egzamin>ul>li {
   border: 1px solid #E2E2E2;
   border-radius: .5rem;
 }
 
-.egzamin > ul > li:hover {
+.egzamin>ul>li:hover {
   -webkit-animation: breathing 4s ease-in-out infinite;
   animation: breathing 4s ease-in-out infinite;
   -webkit-font-smoothing: antialiased;
 }
 
-.egzamin > ul > li > figure {
+.egzamin>ul>li>figure {
   max-height: 220px;
   overflow: hidden;
   border-top-left-radius: .5rem;
@@ -102,25 +102,25 @@ ul {
   position: relative;
 }
 
-.egzamin > ul > li > figure > img {
+.egzamin>ul>li>figure>img {
   height: 100%;
   width: 100%;
 }
 
-.egzamin > ul > li > figure > figcaption {
+.egzamin>ul>li>figure>figcaption {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
 }
 
-.egzamin > ul > li > figure > figcaption > h3 {
+.egzamin>ul>li>figure>figcaption>h3 {
   color: white;
   padding: .75rem;
   font-size: 1.25rem;
 }
 
-.egzamin > ul > li > p {
+.egzamin>ul>li>p {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem .75rem;
@@ -167,19 +167,63 @@ ul {
   -moz-box-shadow: 7px 9px 11px 0px rgba(0, 0, 0, 0.77);
 }
 
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inherit 0 0 15px #2d2d2d8a;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #2d2d2d;
+  transition: ease-in-out 0.5s;
+}
+
+::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  background-color: #2d2d2d;
+  transition: ease-in-out 0.5s;
+}
+
+::-webkit-scrollbar-track:hover {
+  opacity: 30%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2d2d2d;
+  transition: ease-in-out 0.5s;
+}
+
+::-webkit-scrollbar-track-piece:hover {
+  background-color: #2d2d2d8a;
+  transition: ease-in-out 0.5s;
+  opacity: 30%;
+}
+
+::-webkit-scrollbar-corner:hover {
+  background-color: #2d2d2d8a;
+  transition: ease-in-out 0.5s;
+  opacity: 30%; 
+}
+
 @-webkit-keyframes breathing {
   0% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
+
   25% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
   60% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
+
   100% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
@@ -191,17 +235,21 @@ ul {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
+
   25% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
   60% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
+
   100% {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
 }
+
 /*# sourceMappingURL=style.css.map */
