@@ -1,0 +1,75 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+body
+{
+	margin: 0;
+	font-family: "Garamond";
+}
+
+header{display: flex;}
+
+#hedL, #hedP
+{
+	background-color: rgb(95, 158, 160);
+	color: yellow;
+	width: 20%;
+	height: 90px;
+	text-align: right;
+}
+
+#hedS
+{
+	background-color: rgb(95, 158, 160);
+	color: yellow;
+	width: 60%;
+	height: 90px;
+	text-align: center;
+}
+
+main{display: flex;}
+
+#lewy, #prawy
+{
+	background-color: rgb(175, 238, 238);
+	width: 50%;
+	height: 250px;
+}
+
+article
+{
+	background-color: rgb(95, 158, 160);
+	padding: 30px;
+}
+
+footer
+{
+	background-color: rgb(175, 238, 238);
+	padding: 10px;
+}
+
+table
+{
+	border: 2px dotted green;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td
+{
+	border: 2px dotted green;
+}
+
+th
+{
+	border: 2px dotted green;
+	background-color: green;
+	color: yellow;
+}
+
+
+
+
