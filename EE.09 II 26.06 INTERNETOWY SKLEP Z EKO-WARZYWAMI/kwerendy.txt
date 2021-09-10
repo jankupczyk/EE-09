@@ -1,0 +1,6 @@
+Kwerenda 1: SELECT nazwa,ilosc,opis,cena,zdjecie FROM produkty WHERE Rodzaje_id IN (1,2);
+Kwerenda 2: select produkty.nazwa, producenci.nazwa from produkty inner join producenci on produkty.Producenci_id=producenci.id where produkty.ilosc<10;
+Kwerenda 3: CREATE USER 'Anna'@'localhost' IDENTIFIED BY '@ann23';
+Kwerenda 4: INSERT INTO produkty (id,`Rodzaje_id`,`Producenci_id`,`nazwa`,`ilosc`,`opis`,`cena`,`zdjecie`) VALUES (NULL,'1','4','nazwa','10','','9,99','owoce.jpg');
+
+TEORETYCZNE, BO NIE MA ARKUSZA

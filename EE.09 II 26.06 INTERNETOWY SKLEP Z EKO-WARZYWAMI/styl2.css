@@ -1,0 +1,52 @@
+body {
+	font-family: Garamond;
+	margin: 0;
+}
+
+#lewy {
+	background-color: #00600F;
+	color: white;
+	text-align: center;
+	width: 75%;
+	height: 90px;
+	float: left;
+}
+
+#prawy {
+	background-color: #00600F;
+	color: white;
+	width: 25%;
+	height: 90px;
+	float: left;
+}
+
+main {
+	background-color: #C8E6C9;
+	height: 600px;
+	overflow: scroll;
+	clear: both;
+}
+
+footer {
+	background-color: #00600F;
+	color: white;
+}
+
+h5 {
+	background-color: #00600F;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	margin: 0px;
+}
+
+h2 {
+	text-align: right;
+}
+
+#produkt {
+	margin: 10px;
+	border: 1px solid #00600F;
+	width: 300px;
+	float: left;
+}
