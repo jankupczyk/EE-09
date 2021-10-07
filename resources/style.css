@@ -92,8 +92,7 @@ ul {
 }
 
 .egzamin > ul > li:hover {
-  -webkit-animation: breathing 4s ease-in-out infinite;
-  animation: breathing 4s ease-in-out infinite;
+  border: 3px solid crimson;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -335,43 +334,5 @@ footer {
 #MIT {
   height: 15px;
   width: 15px;
-}
-
-@-webkit-keyframes breathing {
-  0% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  25% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  60% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-@keyframes breathing {
-  0% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  25% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  60% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
 }
 /*# sourceMappingURL=style.css.map */
