@@ -1,0 +1,63 @@
+body,html
+{
+	margin: 0px;
+	padding: 0px;
+}
+#baner 
+{
+	background-color: #009999;
+	color: white;
+	text-align: center;
+	height: 80px;
+}
+.info
+{
+	font-family: Arial;
+	background-color: #009999;
+	color: white;
+	text-align: center;
+	width: 25%;
+	height: 150px;
+	float: left;
+}
+#pl 
+{
+	background-color: #669999;
+	width: 30%;
+	height: 600px;
+	float: left;
+}
+#pp
+{
+	background-color: #669999;
+	width: 30%;
+	height: 600px;
+	float: left;
+}
+#ps
+{
+	background-color: #99CCCC;
+	width: 40%;
+	height: 600px;
+	text-align: center;
+	float: left;
+}
+#stopka
+{
+	background-color: #009999;
+	color: white;
+	text-align: right;
+	clear: both;
+}
+table,td
+{
+	border: 1px solid green;
+	text-align: center;
+}
+#przycisk
+{
+	border: none;
+	margin: 10px;
+	background-color: green;
+	color: white;
+}

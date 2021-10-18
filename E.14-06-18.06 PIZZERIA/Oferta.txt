@@ -1,0 +1,7 @@
+Pizza Margherita 20 zł
+Pizza Funghi 23 zł
+Pizza Vesuvio 23 zł
+Pizza Capricciosa 24 zł
+Pizza Hawajska 24 zł
+Pizza Kebab 33 zł
+Pizza Pepperoni 44 zł

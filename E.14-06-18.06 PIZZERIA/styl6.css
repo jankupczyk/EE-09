@@ -1,0 +1,50 @@
+header
+{
+	background-color: #4E885C;
+	color: orange;
+	text-align:center;
+	height: 110px;
+}
+#pl
+{
+	background-color: #72A37D;
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+#ps
+{
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	 background-position: right;
+	background-color: #A2C3A9;
+	width: 40%;
+	height: 300px;
+	float: left;
+}
+#pp
+{
+	background-color: #72A37D;
+	text-align: center;
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+#pd
+{
+	background-color: #A2C3A9;
+	text-align: center;
+	height: 250px;
+	clear: both;
+}
+footer
+{
+	background-color: #4E885C;
+	color: orange;
+}
+#pp a
+{
+	background-color: orange;
+	color: green;
+	padding: 15px;
+}
