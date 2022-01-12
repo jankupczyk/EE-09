@@ -33,6 +33,14 @@
     {
         "year": "2020",
         "type": "EE.09",
+        "title": "EE.09-02-20.01-SG STACJA PALIW V2",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x09/EE.09-02-20.01-SG STACJA PALIW V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+    },
+    {
+        "year": "2020",
+        "type": "EE.09",
         "title": "EE.09-02-20.06-SG BIURO PODRÓŻY",
         "lang": "PHP",
         "status": "COMPLTD",
