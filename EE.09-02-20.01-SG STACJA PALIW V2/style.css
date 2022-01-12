@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial;
+}
+
+table {
+    border: 1px solid;
+}
+
+table,
+td {
+    border: 1px solid rgb(255, 127, 80);
+    text-align: center;
+    margin: 10px;
+}
+
+#footer,
+#zapytania {
+    background-color: rgb(255, 127, 80);
+    color: white;
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+.welcome,
+#main {
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+#lewy,
+#prawy {
+    background-color: rgb(255, 127, 80);
+    color: white;
+    width: 50%;
+    height: 410px;
+    float: left;
+}
+
+a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jan Kupczyk */
