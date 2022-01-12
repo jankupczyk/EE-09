@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    color: white;
+    background-color: #3B85AA;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+}
+
+#zdjecie {
+    width: 80%;
+    height: 450px;
+    text-align: center;
+    float: left;
+}
+
+.author {
+    color: white;
+    background-color: #4E9BB5;
+    width: 20%;
+    height: 450px;
+    float: left;
+}
+
+.foot {
+    color: white;
+    background-color: #3B85AA;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    clear: both;
+}
+
+a {
+    color: white;
+}

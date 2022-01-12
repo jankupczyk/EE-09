@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: arial;
+    background-color: rgb(244, 164, 96);
+    color: white;
+}
+
+.main
+{
+    clear: both;
+    background-color: rgb(128, 0, 0);
+    padding: 50px;
+    text-transform: uppercase;
+}
+
+
+#cookie
+{
+    float: left;
+    text-align: center;
+    width: 60%;
+}
+
+
+.s1
+{
+    text-align: center;
+    float: left;
+    width: 75%;
+    height: 150px;
+    font-size:200%;
+}
+
+.s2
+{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+}
+
+p
+{
+    padding: 20px;
+    font-size: 150%;
+    border-radius: 2px;
+    border-style: dotted;
+    border-color: rgb(175, 174, 174);
+}
+
+p:hover
+{
+    background-color: rgb(175, 174, 174);
+}
+
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}   
+
+td, th
+{
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgb(175, 174, 174);
+    padding: 5px;
+}    
+
+.pobierz footer
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 90px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jan Kupczyk */

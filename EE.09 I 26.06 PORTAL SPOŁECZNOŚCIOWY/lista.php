@@ -29,8 +29,8 @@
     $result = mysqli_query($conn, $sql);
 
     while ($row = mysqli_fetch_row($result)) {
-      echo <<<FRIEND
-          <div class='friend'>
+      echo <<<CMT
+          <div class='przyjaciele'>
             <div class='imgbox'>
               <img  src='$row[0]' alt='przyjaciel'>
             </div>
@@ -42,7 +42,7 @@
               <hr>
             </div>
           </div>
-          FRIEND;
+          CMT;
     }
 
     mysqli_close($conn);

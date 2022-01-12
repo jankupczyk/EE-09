@@ -1,0 +1,87 @@
+body {
+    margin: 10px auto;
+    width: 850px;
+    font: 18px Arial;
+}
+
+header,
+nav,
+main {
+    outline: 1px solid;
+}
+
+nav,
+main {
+    float: left;
+    min-height: 300px;
+}
+
+nav {
+    width: 40%;
+}
+
+main {
+    width: 60%;
+}
+
+p,
+nav a {
+    margin: 10px;
+}
+
+.ft > p{
+    margin-top: 269px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jan Kupczyk */

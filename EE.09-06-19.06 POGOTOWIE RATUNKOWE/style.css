@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Georgia;
+}
+
+.main {
+    background-color: Tan;
+    padding: 100px;
+    clear: both;
+}
+
+#zdjecie,
+#baner2,
+#baner3,
+#foo,
+#foot,
+.footer {
+    background-color: sienna;
+    color: white;
+    height: 150px;
+    float: left;
+}
+
+a {
+    color: sienna;
+    background: tan;
+    border: 1px dashed sienna;
+    padding: 40px;
+    line-height: 150px;
+}
+
+li {
+    list-style-type: circle;
+}
+
+
+#zdjecie,
+#foo {
+    width: 40%;
+}
+
+#baner2,
+#foot {
+    width: 50%;
+    font-size: 150%;
+}
+
+#baner3,
+.footer {
+    width: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jan Kupczyk */

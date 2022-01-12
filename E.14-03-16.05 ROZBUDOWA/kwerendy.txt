@@ -1,0 +1,62 @@
+Zapytanie 1: SELECT Tytul FROM ksiazki WHERE RokWydania>1970;
+Zapytanie 2: SELECT autorzy.Nazwisko,ksiazki.Tytul FROM autorzy INNER JOIN ksiazki ON autorzy.IDAutor=ksiazki.AutorID ;
+Zapytanie 3: SELECT egzemplarze.IDEgzemplarz,ksiazki.Tytul FROM egzemplarze INNER JOIN ksiazki ON egzemplarze.IDEgzemplarz=ksiazki.IDKsiazki where egzemplarze.DoWypozyczenia=1;
+Zapytanie 4: INSERT INTO autorzy VALUES(3,'Adam','Asnyk');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Jan Kupczyk
