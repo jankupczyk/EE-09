@@ -6,316 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rozwiązania do egzaminów EE09 i E14</title>
-    <link rel="stylesheet" href="resources/style.css" type="text/css">
+    <link rel="stylesheet" href="resources/style.css" type="text/css">    
+    <link rel="stylesheet" href="src/css/style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/12.0.1/sanitize.min.css"
-        integrity="sha512-A2jF6lw/DMBeH2FebFTxSSBLVNeE685lLs/RB6XoR5bAkwUOBCtdPUY0UgatVRQpQwcQPuHIrHR82aUCn1aQxw=="
-        crossorigin="anonymous" />
-
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
 </head>
 
 <body>
-    <div class="nav">
-        <div class="img-container"><a href="index.html"><img src="resources/webp/bg.webp" alt=""></a></div>
 
-        <ul>
-            <li>
-                <a href="#EE-09" class="EE09">EE09</a>
-                <a href="#E-14" class="E14">E-14</a>
-            </li>
-        </ul>
-    </div>
+    <main class="container">
 
+        <table class="table" id="egzaminyTable">
+            <thead>
+                <th><a href="javascript:SortTable(3, 'D')">year</a></th>
+                <th><a href="javascript:SortTable(0)">type</a></th>
+                <th><a href="javascript:SortTable(1, 'T')">title</a></th>
+                <th><a href="javascript:SortTable(2, 'T')">lang</a></th>
+                <th>status</th>
+                <th>download</th>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
 
-    <a href="https://github.com/jankupczyk/EE-09" target="_blank" rel="noopener noreferrer">
-        <span class="forkme">Fork Me On GitHub</span>
-    </a>
-
-
-
-    <div class="EE09-container" id="EE-09">
-        <main class="wrapper">
-            <section class="egzamin" id="egzamin">
-                <ul>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/ryby.webp">
-                            <figcaption>
-                                <h3>EE.09-01-19.06 RYBY</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-01-19.06%20RYBY" class="down"
-                            target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/pogoda.webp">
-                            <figcaption>
-                                <h3>EE.09-03-20.01-SG PROGNOZA POGODY</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-03-20.01-SG%20PROGNOZA%20POGODY"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/stacjapaliw.webp">
-                            <figcaption>
-                                <h3>EE.09-02-19.06 STACJA PALIW</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-02-19.06%20%20STACJAPALIW"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/biuro.webp">
-                            <figcaption>
-                                <h3>EE.09-02-20.06-SG BIURO PODRÓŻY</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-02-20.06-SG%20BIURO%20PODR%C3%93%C5%BBY"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/piłka.webp">
-                            <figcaption>
-                                <h3>EE.09-02-21.01-SG20 REPREZENTACJA</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-02-21.01-SG%20REPREZENTACJA"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/wedkar.webp">
-                            <figcaption>
-                                <h3>EE.09-03-19.06 ZAWODY WĘDKARSKIE</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-03-19.06%20%20ZAWODY%20W%C4%98DKARSKIE"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/organizer.webp">
-                            <figcaption>
-                                <h3>EE.09-03-20.06-SG ORGANIZER</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-03-20.06-SG%20ORGANIZER"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/pomocnikmat.webp">
-                            <figcaption>
-                                <h3>EE.09-04-19.05 DZIAŁANIA</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-04-19.05%20DZIA%C5%81ANIA"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/salon.webp">
-                            <figcaption>
-                                <h3>EE.09-04-20.06-SG SALON KOSMETYCZNY</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-04-20.06-SG%20SALON%20KOSMETYCZNY"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/ciagifib.webp">
-                            <figcaption>
-                                <h3>EE.09-05-19.06 CIĄGI</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-05-19.06%20CI%C4%84GI" class="down"
-                            target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/salonfryzjer.webp">
-                            <figcaption>
-                                <h3>EE.09-05-20.06-SG SALON FRYZJERSKI</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-05-20.06-SG%20SALON%20FRYZJERSKI"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/organizerv2.webp">
-                            <figcaption>
-                                <h3>EE.09-01-20.06-SG ORGANIZER V2</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-01-20.06-SG%20ORGANIZER%20V2"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/rybyv2.webp">
-                            <figcaption>
-                                <h3>EE.09-01-20.01-SG RYBY V2</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-01-20.01-SG%20RYBY%20V2"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/portal.webp">
-                            <figcaption>
-                                <h3>EE.09-01-21.06-SG I PORTAL SPOŁECZNOŚCIOWY</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09%20I%2026.06%20PORTAL%20SPO%C5%81ECZNO%C5%9ACIOWY"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/placeholder.webp">
-                            <figcaption>
-                                <h3>EE.09-01-21.06-SG II INTERNETOWY SKLEP Z EKO-WARZYWAMI</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09%20II%2026.06%20INTERNETOWY%20SKLEP%20Z%20EKO-WARZYWAMI"
-                            class="down" target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/BMI.webp">
-                            <figcaption>
-                                <h3>EE.09-03-21.01-SG BMI</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/EE.09-03-21.01-SG%20BMI%20" class="down"
-                            target="_blank" rel="noopener noreferrer" download>Pobierz</a>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </div>
-
-    <div class="E14-container" id="E-14">
-        <main class="wrapper">
-            <section class="egzamin" id="egzamin">
-                <ul>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/bazafilmow.webp">
-                            <figcaption>
-                                <h3>E.14-03-19.01 BAZA FILMÓW</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/E.14-03-19.01%20BAZA%20FILM%C3%93W"
-                            class="down" target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/restauracja.webp">
-                            <figcaption>
-                                <h3>E.14-01-18.06 RESTAURACJA</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/E.14-01-18.06%20RESTAURACJA" class="down"
-                            target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/it.webp">
-                            <figcaption>
-                                <h3>E.14-05-19.06 IT</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/E.14-05-19.06%20IT" class="down"
-                            target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/ksiegarnia.webp">
-                            <figcaption>
-                                <h3>E.14-04-19.06 KSIĘGARNIA</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/E.14-04-19.06%20KSI%C4%98GARNIA"
-                            class="down" target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/ptaki.webp">
-                            <figcaption>
-                                <h3>E.14-04-20.01-SG PTAKI</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="https://github.com/jankupczyk/EE-09/tree/main/E.14-04-20.01-SG%20PTAKI" class="down"
-                            target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/wesele.webp">
-                            <figcaption>
-                                <h3>E.14-05-18.06 WESELE</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="#" class="down" target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/pizzeria.webp">
-                            <figcaption>
-                                <h3>E.14-06-18.06 PIZZERIA</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="#" class="down" target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="resources/webp/ogloszeniowy.webp">
-                            <figcaption>
-                                <h3>E.14-05-18.01 PORTAL OGŁOSZENIOWY</h3>
-                            </figcaption>
-                        </figure>
-                        <a href="#" class="down" target="_blank" rel="noopener noreferrer">Pobierz</a>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </div>
-
-
-
-
-
+    </main>
 
     <footer>
-
-        <div class="footer-container" id="Contact">
+        <div class="footer-container">
             <div class="footer-box">
             </div>
         </div>
-
         <div class="author">
             <p>
-                &copy; 2021
-                <span>Jan Kupczyk</span>
-                <i class="far fa-id-badge" id="MIT" title="MIT-License"></i></a>
+                &copy; 2022
+                <span>Jan Kupczyk.</span>
+                <span> All rights reserved. <br></span>
             </p>
         </div>
-
     </footer>
 
+    <script>
+        function createElement(tag, params = {}) {
+            const element = document.createElement(tag);
+            const { dataset } = params;
 
-    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+            for(const [key, value] of Object.entries(params)) {
+                element[key] = value;
+            }
+
+            for(const [key, value] of Object.entries(dataset)) {
+                element.dataset[key] = dataset[key];
+            }
+
+            return element;
+        }
+
+        const table = document.getElementById("egzaminyTable");
+        const tableBody = document.getElementById("tableBody");
+
+        async function setupTable() {
+            try {
+                const resp = await fetch("data.json");
+                const data = await resp.json();
+
+                data.forEach((element, idx) => {
+                    addRow(element);
+                });
+
+                return data;
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        setupTable();
+
+        function addRow(rowData) {
+            const tr = document.createElement("tr");
+            const keys = Object.keys(rowData);
+
+            keys.forEach((key, _) => {
+                tr.append(createElement("td", { dataset: { label: key.toUpperCase() }, innerHTML: rowData[key] }));
+            });
+
+            document.getElementById("tableBody").appendChild(tr);
+        }
+    </script>
+    <script src="src/js/index.js"></script>
 </body>
 
 </html>
