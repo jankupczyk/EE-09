@@ -1,5 +1,5 @@
 [{
-    "year": "2019",
+        "year": "2019",
         "type": "EE.09",
         "title": "EE.09-01-19.06 RYBY",
         "lang": "PHP",
@@ -190,7 +190,7 @@
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-14.05-07 LICZBY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
     },
-        {
+    {
         "year": "2015",
         "type": "E.14",
         "title": "E.14-01-16.08 HASŁO",
@@ -215,12 +215,28 @@
         "download": "<a href=\"resources/public/data/x14/E.14-03-16.05 ROZBUDOWA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
     },
     {
+        "year": "2016",
+        "type": "E.14",
+        "title": "E.14-03-17.06 WETERYNARZ",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-03-17.06 WETERYNARZ.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+    },
+    {
         "year": "2018",
         "type": "E.14",
         "title": "E.14-03-19.01 BAZA FILMÓW",
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-03-19.01 BAZA FILMÓW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+    },
+    {
+        "year": "2016",
+        "type": "E.14",
+        "title": "E.14-04-17.06 SALON",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-04-17.06 SALON.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
     },
     {
         "year": "2019",
@@ -265,9 +281,25 @@
     {
         "year": "2018",
         "type": "E.14",
+        "title": "E.14-06-17.06 REMONT",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-06-17.06 REMONT.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+    },
+    {
+        "year": "2018",
+        "type": "E.14",
         "title": "E.14-06-18.06 PIZZERIA",
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-06-18.06 PIZZERIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+    },
+    {
+        "year": "2018",
+        "type": "E.14",
+        "title": "E.14-07-17.06 AGENCJA",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-07-17.06 AGENCJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
     }
 ]

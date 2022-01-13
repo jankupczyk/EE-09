@@ -47,13 +47,15 @@
     <script>
         function createElement(tag, params = {}) {
             const element = document.createElement(tag);
-            const { dataset } = params;
+            const {
+                dataset
+            } = params;
 
-            for(const [key, value] of Object.entries(params)) {
+            for (const [key, value] of Object.entries(params)) {
                 element[key] = value;
             }
 
-            for(const [key, value] of Object.entries(dataset)) {
+            for (const [key, value] of Object.entries(dataset)) {
                 element.dataset[key] = dataset[key];
             }
 
@@ -85,7 +87,12 @@
             const keys = Object.keys(rowData);
 
             keys.forEach((key, _) => {
-                tr.append(createElement("td", { dataset: { label: key.toUpperCase() }, innerHTML: rowData[key] }));
+                tr.append(createElement("td", {
+                    dataset: {
+                        label: key.toUpperCase()
+                    },
+                    innerHTML: rowData[key]
+                }));
             });
 
             document.getElementById("tableBody").appendChild(tr);
