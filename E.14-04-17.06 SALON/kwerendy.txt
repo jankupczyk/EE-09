@@ -1,0 +1,47 @@
+Zapytanie 1: SELECT nazwa, cena FROM `uslugi`
+Zapytanie 2: SELECT `zwierzeta`.`imie`, `zwierzeta`.`rodzaj`, `zwierzeta`.`nastepna_wizyta`, `zwierzeta`.`telefon` FROM `zwierzeta` WHERE `zwierzeta`.`nastepna_wizyta` != 0
+Zapytanie 3: SELECT `zwierzeta`.`rodzaj`, `uslugi`.`nazwa` FROM `zwierzeta` INNER JOIN `uslugi` ON `zwierzeta`.`usluga_id` = `uslugi`.`id`
+Zapytanie 4: SELECT MIN(`uslugi`.`cena`) FROM `uslugi`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Jan Kupczyk

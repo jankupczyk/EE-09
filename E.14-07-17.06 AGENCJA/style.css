@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main {
+	width: 40%;
+	height: 600px;
+	background-color: #FF8989;
+	float: left;
+}
+
+
+#przycisk {
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid blue;
+	background-color: cyan;
+	font-size: 20px;
+}
+
+table,
+td {
+	margin: 20px;
+	padding: 30px;
+	border: 2px solid brown;
+	border-collapse: collapse;
+}
+
+
+#calc {
+	width: 60%;
+	height: 600px;
+	background-color: #7872D9;
+	float: left;
+}
+
+h1 {
+	text-align: center;
+}
+
+#stopka {
+	background-color: black;
+	color: white;
+	font-size: 150%;
+	text-align: right;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jan Kupczyk */

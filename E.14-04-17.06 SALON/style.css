@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+body,
+html {
+	margin: 0 auto;
+	padding: 0;
+}
+
+header {
+	background-color: rgb(30, 137, 157);
+	color: white;
+	font-size: 120%;
+	text-align: right;
+	height: 100px;
+}
+
+nav,
+aside {
+	float: left;
+	background-color: rgb(58, 159, 178);
+	width: 20%;
+	height: 550px;
+}
+
+main {
+	background-color: rgb(143, 212, 225);
+	width: 60%;
+	height: 550px;
+	float: left;
+}
+
+h3 {
+	color: white;
+}
+
+img {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jan Kupczyk */
