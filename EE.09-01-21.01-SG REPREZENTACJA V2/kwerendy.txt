@@ -1,0 +1,62 @@
+1. SELECT zespol1, zespol2, wynik, data_rozgrywki FROM rozgrywka WHERE zespol1 = "EVG";
+2. SELECT imie, nazwisko FROM zawodnik WHERE pozycja_id = 3;
+3. SELECT zawodnik.id, nazwisko, pozycja.nazwa FROM zawodnik JOIN pozycja ON zawodnik.pozycja_id = pozycja.id WHERE zawodnik.id <4;
+4. DROP TABLE liga;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Jan Kupczyk

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma;
+    background-color: crimson;
+}
+
+#main {
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+    clear: both;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+#baner {
+    color: white;
+    text-align: center;
+    height: 370px;
+}
+
+#left {
+    background-color: whitesmoke;
+    width: 70%;
+    height: 330px;
+    float: left;
+}
+
+h2.styl {
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.match {
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+}
+
+.match:hover {
+    border-color: white;
+}
+
+#footer {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jan Kupczyk */
