@@ -49,13 +49,13 @@ a>i {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.nooopener-noreferrer {
+.noopener-noreferrer {
   color: #31292f;
   font-weight: bold;
   text-decoration: none;
 }
 
-.nooopener-noreferrer:hover{
+.noopener-noreferrer:hover {
   text-decoration: underline;
 }
 
