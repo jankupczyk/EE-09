@@ -47,6 +47,10 @@
     </footer>
 
     <script>
+        const table = document.getElementById("egzaminyTable");
+        const tableBody = document.getElementById("tableBody");
+        const htmlReg = /<\/?[a-z][\s\S]*>/i;
+
         function createElement(tag, params = {}) {
             const element = document.createElement(tag);
             const {
@@ -64,19 +68,33 @@
             return element;
         }
 
-        const table = document.getElementById("egzaminyTable");
-        const tableBody = document.getElementById("tableBody");
-
         function addRow(rowData) {
             const tr = document.createElement("tr");
             const keys = Object.keys(rowData);
 
+            const {
+                year,
+                type,
+                title,
+                lang,
+                status,
+                download,
+                pdf
+            } = rowData;
+
             keys.forEach((key, _) => {
+                let content = rowData[key];
+
+                if (key === "status") {
+                    content = rowData[key] === 'COMPLTD' ? `<i class="fas fa-check"></i>` :
+                        `<i class="fas fa-times"></i>`;
+                }
+
                 tr.append(createElement("td", {
                     dataset: {
                         label: key.toUpperCase()
                     },
-                    innerHTML: rowData[key]
+                    innerHTML: content
                 }));
             });
 
@@ -85,8 +103,7 @@
 
         async function setupTable() {
             try {
-                const resp = await fetch("data.json");
-                const data = await resp.json();
+                const data = await fetch("data.json").then(resp => resp.json());
 
                 data.forEach((element, idx) => {
                     addRow(element);
