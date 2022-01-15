@@ -22,7 +22,7 @@
                 <th><a href="javascript:SortTable(1)">type</a></th>
                 <th><a href="javascript:SortTable(1)">title</a></th>
                 <th><a href="javascript:SortTable(3, 'T')">lang</a></th>
-                <th>status</th>
+                <th><a href="javascript:SortTable(3, 'T')">status</a></th>
                 <th>download (.zip)</th>
                 <th>download (.pdf)</th>
             </thead>
@@ -39,7 +39,8 @@
         <div class="author">
             <p>
                 &copy; 2022
-                <span>Jan Kupczyk.</span>
+                <span><a href="https://kupczyk.netlify.app/" target="_blank" rel="noopener noreferrer nofollw"
+                        class="nooopener-noreferrer footer">Jan Kupczyk</a>.</span>
                 <span> All rights reserved.</span>
             </p>
         </div>
@@ -66,6 +67,22 @@
         const table = document.getElementById("egzaminyTable");
         const tableBody = document.getElementById("tableBody");
 
+        function addRow(rowData) {
+            const tr = document.createElement("tr");
+            const keys = Object.keys(rowData);
+
+            keys.forEach((key, _) => {
+                tr.append(createElement("td", {
+                    dataset: {
+                        label: key.toUpperCase()
+                    },
+                    innerHTML: rowData[key]
+                }));
+            });
+
+            document.getElementById("tableBody").appendChild(tr);
+        }
+
         async function setupTable() {
             try {
                 const resp = await fetch("data.json");
@@ -82,24 +99,23 @@
         }
 
         setupTable();
-
-        function addRow(rowData) {
-            const tr = document.createElement("tr");
-            const keys = Object.keys(rowData);
-
-            keys.forEach((key, _) => {
-                tr.append(createElement("td", {
-                    dataset: {
-                        label: key.toUpperCase()
-                    },
-                    innerHTML: rowData[key]
-                }));
-            });
-
-            document.getElementById("tableBody").appendChild(tr);
-        }
     </script>
     <script src="src/js/index.js"></script>
 </body>
 
 </html>
+
+<!-- 
+# AUTHOR: Jan Kupczyk
+# GITHUB: https://github.com/jankupczyk
+# LICENSE: MIT
+
+# FINALLY: 
+Rozwiązania do starych arkuszy egzaminacyjnych (EE09, E14)
+
+To repozytorium zawiera rozwiązane arkusze egzaminacyjne z egzaminów praktycznych EE09, E14.
+
+Rozwiązane arkusze znajdują się pod tym linkiem - https://jankupczyk.github.io/EE-09/
+
+Please do not misuse this website, if you want to share it it would be nice if you tag me.
+-->
