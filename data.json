@@ -4,7 +4,8 @@
         "title": "EE.09-01-19.06 RYBY",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-01-19.06 RYBY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-01-19.06 RYBY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-01-19.06 RYBY.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2019",
@@ -12,7 +13,8 @@
         "title": "EE.09-01-20.01-SG RYBY V2",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-01-20.01-SG RYBY V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-01-20.01-SG RYBY V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-01-20.01-SG RYBY V2.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2020",
@@ -20,7 +22,8 @@
         "title": "EE.09-01-20.06-SG ORGANIZER V2",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-01-20.06-SG ORGANIZER V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-01-20.06-SG ORGANIZER V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-01-20.06-SG ORGANIZER V2.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2021",
@@ -28,7 +31,8 @@
         "title": "EE.09-01-21.01-SG REPREZENTACJA V2",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-01-21.01-SG REPREZENTACJA V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-01-21.01-SG REPREZENTACJA V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2020",
@@ -36,7 +40,8 @@
         "title": "EE.09-02-19.06  STACJAPALIW",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-02-19.06  STACJAPALIW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-02-19.06  STACJAPALIW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-02-19.06  STACJAPALIW.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2020",
@@ -44,7 +49,8 @@
         "title": "EE.09-02-20.01-SG STACJA PALIW V2",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-02-20.01-SG STACJA PALIW V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-02-20.01-SG STACJA PALIW V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2020",
@@ -52,7 +58,8 @@
         "title": "EE.09-02-20.06-SG BIURO PODRÓŻY",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-02-20.06-SG BIURO PODRÓŻY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-02-20.06-SG BIURO PODRÓŻY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-02-20.06-SG BIURO PODRÓŻY.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2021",
@@ -60,7 +67,8 @@
         "title": "EE.09-02-21.01-SG REPREZENTACJA",
         "lang": "PHP/JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-02-21.01-SG REPREZENTACJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-02-21.01-SG REPREZENTACJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-02-21.01-SG REPREZENTACJA.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2019",
@@ -68,7 +76,8 @@
         "title": "EE.09-03-19.06  ZAWODY WĘDKARSKIE",
         "lang": "PHP/JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-03-19.06  ZAWODY WĘDKARSKIE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-03-19.06  ZAWODY WĘDKARSKIE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-03-19.06  ZAWODY WĘDKARSKIE.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2020",
@@ -76,7 +85,8 @@
         "title": "EE.09-03-20.01-SG PROGNOZA POGODY",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-03-20.01-SG PROGNOZA POGODY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-03-20.01-SG PROGNOZA POGODY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-03-20.01-SG PROGNOZA POGODY.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2020",
@@ -84,7 +94,8 @@
         "title": "EE.09-03-20.06-SG ORGANIZER",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-03-20.06-SG ORGANIZER.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-03-20.06-SG ORGANIZER.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-03-20.06-SG ORGANIZER.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2021",
@@ -92,7 +103,8 @@
         "title": "EE.09-03-21.01-SG BMI",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-03-21.01-SG BMI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-03-21.01-SG BMI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-03-21.01-SG BMI.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2019",
@@ -100,7 +112,8 @@
         "title": "EE.09-04-19.05 DZIAŁANIA",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-04-19.05 DZIAŁANIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-04-19.05 DZIAŁANIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2020",
@@ -108,7 +121,8 @@
         "title": "EE.09-04-20.06-SG SALON KOSMETYCZNY",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-04-20.06-SG SALON KOSMETYCZNY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-04-20.06-SG SALON KOSMETYCZNY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-04-20.06-SG SALON KOSMETYCZNY.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2019",
@@ -116,7 +130,8 @@
         "title": "EE.09-05-19.06 CIĄGI",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-05-19.06 CIĄGI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-05-19.06 CIĄGI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2020",
@@ -124,7 +139,8 @@
         "title": "EE.09-05-20.06-SG SALON FRYZJERSKI",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-05-20.06-SG SALON FRYZJERSKI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-05-20.06-SG SALON FRYZJERSKI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-05-20.06-SG SALON FRYZJERSKI.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2020",
@@ -132,7 +148,8 @@
         "title": "EE.09-06-19.06 POGOTOWIE RATUNKOWE",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-06-19.06 POGOTOWIE RATUNKOWE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-06-19.06 POGOTOWIE RATUNKOWE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-06-19.06 POGOTOWIE RATUNKOWE.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2020",
@@ -140,7 +157,8 @@
         "title": "EE.09-06-21.01-SG LOTNISKO",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-06-21.01-SG LOTNISKO.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09-06-21.01-SG LOTNISKO.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2021",
@@ -148,7 +166,8 @@
         "title": "EE.09 II 26.06 INTERNETOWY SKLEP Z EKO-WARZYWAMI",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09 II 26.06 INTERNETOWY SKLEP Z EKO-WARZYWAMI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09 II 26.06 INTERNETOWY SKLEP Z EKO-WARZYWAMI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2021",
@@ -156,31 +175,35 @@
         "title": "EE.09 I 26.06 PORTAL SPOŁECZNOŚCIOWY",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09 I 26.06 PORTAL SPOŁECZNOŚCIOWY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x09/EE.09 I 26.06 PORTAL SPOŁECZNOŚCIOWY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09 I 26.06 PORTAL SPOŁECZNOŚCIOWY.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "?",
-        "lang": "?",
-        "status": "?",
-        "download": "<a href=\"\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "title": "EE.09...",
+        "lang": "17.01.2022",
+        "status": "UNCOMPLTD",
+        "download": "<a href=\"\" download=\"\"></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "?",
-        "lang": "?",
-        "status": "?",
-        "download": "<a href=\"\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "title": "EE.09...",
+        "lang": "17.01.2022",
+        "status": "UNCOMPLTD",
+        "download": "<a href=\"\" download=\"\"></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "?",
-        "lang": "?",
-        "status": "?",
-        "download": "<a href=\"\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "title": "EE.09...",
+        "lang": "17.01.2022",
+        "status": "UNCOMPLTD",
+        "download": "<a href=\"\" download=\"\"></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2014",
@@ -188,7 +211,8 @@
         "title": "E.14-14.05-07 LICZBY",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-14.05-07 LICZBY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-14.05-07 LICZBY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2015",
@@ -196,7 +220,8 @@
         "title": "E.14-01-16.08 HASŁO",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-01-16.08 HASŁO.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-01-16.08 HASŁO.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2018",
@@ -204,7 +229,8 @@
         "title": "E.14-01-18.06 RESTAURACJA",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-01-18.06 RESTAURACJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-01-18.06 RESTAURACJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2015",
@@ -212,7 +238,8 @@
         "title": "E.14-03-16.05 ROZBUDOWA",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-03-16.05 ROZBUDOWA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-03-16.05 ROZBUDOWA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2016",
@@ -220,7 +247,8 @@
         "title": "E.14-03-17.06 WETERYNARZ",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-03-17.06 WETERYNARZ.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-03-17.06 WETERYNARZ.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2018",
@@ -228,7 +256,8 @@
         "title": "E.14-03-19.01 BAZA FILMÓW",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-03-19.01 BAZA FILMÓW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-03-19.01 BAZA FILMÓW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-03-19.01 BAZA FILMÓW.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2016",
@@ -236,7 +265,8 @@
         "title": "E.14-04-17.06 SALON",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-04-17.06 SALON.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-04-17.06 SALON.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2019",
@@ -244,7 +274,8 @@
         "title": "E.14-04-19.06 KSIĘGARNIA",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-04-19.06 KSIĘGARNIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-04-19.06 KSIĘGARNIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-04-19.06 KSIĘGARNIA.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2019",
@@ -252,7 +283,8 @@
         "title": "E.14-04-20.01-SG PTAKI",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-04-20.01-SG PTAKI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-04-20.01-SG PTAKI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-04-20.01-SG PTAKI.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2018",
@@ -260,7 +292,8 @@
         "title": "E.14-05-18.01 PORTAL OGŁOSZENIOWY",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-05-18.01 PORTAL OGŁOSZENIOWY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-05-18.01 PORTAL OGŁOSZENIOWY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2018",
@@ -268,7 +301,8 @@
         "title": "E.14-05-18.06 WESELE",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-05-18.06 WESELE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-05-18.06 WESELE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2018",
@@ -276,7 +310,8 @@
         "title": "E.14-05-19.06 IT",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-05-19.06 IT.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-05-19.06 IT.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-05-19.06 IT.pdf\" download=\"\"><i class=\"fa fa-file\"></i></a>"
     },
     {
         "year": "2018",
@@ -284,7 +319,8 @@
         "title": "E.14-06-17.06 REMONT",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-06-17.06 REMONT.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-06-17.06 REMONT.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2018",
@@ -292,7 +328,8 @@
         "title": "E.14-06-18.06 PIZZERIA",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-06-18.06 PIZZERIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-06-18.06 PIZZERIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2018",
@@ -300,6 +337,7 @@
         "title": "E.14-07-17.06 AGENCJA",
         "lang": "JS",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x14/E.14-07-17.06 AGENCJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>"
+        "download": "<a href=\"resources/public/data/x14/E.14-07-17.06 AGENCJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     }
 ]
