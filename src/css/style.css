@@ -8,7 +8,7 @@ body {
   font-family: Verdana, sans-serif;
 }
 
-a > i{
+a>i {
   cursor: pointer;
 }
 
@@ -47,6 +47,16 @@ a > i{
   text-align: center;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nooopener-noreferrer {
+  color: #31292f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nooopener-noreferrer:hover{
+  text-decoration: underline;
 }
 
 @media (max-width: 950px) {
