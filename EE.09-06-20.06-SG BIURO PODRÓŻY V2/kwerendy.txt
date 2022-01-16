@@ -1,0 +1,49 @@
+SELECT `id`, `cel`, `cena` FROM `wycieczki` WHERE `dostepna` = 0;
+SELECT `nazwaPliku`, `podpis` FROM `zdjecia` ORDER BY `podpis` DESC;
+SELECT `zdjecia`.`podpis`, `wycieczki`.`cena`, `wycieczki`.`cel` FROM `zdjecia`, `wycieczki` WHERE `zdjecia`.`id`=`wycieczki`.`zdjecia_id` AND `wycieczki`.`cena`<1200;
+ALTER TABLE `wycieczki` DROP `dataWyjazdu`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Jan Kupczyk
