@@ -154,6 +154,15 @@
     {
         "year": "2020",
         "type": "EE.09",
+        "title": "EE.09-06-20.06-SG BIURO PODRÓŻY V2",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x09/EE.09-06-20.06-SG BIURO PODRÓŻY V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-02-20.06-SG BIURO PODRÓŻY.pdf\" download=\"\"></a>"
+    },
+    {
+        "year": "2020",
+        "type": "EE.09",
         "title": "EE.09-06-21.01-SG LOTNISKO",
         "lang": "PHP",
         "status": "COMPLTD",
@@ -224,6 +233,15 @@
         "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
+        "year": "2017",
+        "type": "E.14",
+        "title": "E.14-01-17.01 SAMOCHODY",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-01-17.01 SAMOCHODY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
         "year": "2018",
         "type": "E.14",
         "title": "E.14-01-18.06 RESTAURACJA",
@@ -231,6 +249,15 @@
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-01-18.06 RESTAURACJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2017",
+        "type": "E.14",
+        "title": "E.14-02-17.01 SAMOCHODY V2",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-02-17.01 SAMOCHODY V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-02-17.01 SAMOCHODY V2.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2015",
@@ -314,7 +341,7 @@
         "pdf": "<a href=\"resources/public/data/x034/E.14-05-19.06 IT.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
-        "year": "2018",
+        "year": "2017",
         "type": "E.14",
         "title": "E.14-06-17.06 REMONT",
         "lang": "JS",
