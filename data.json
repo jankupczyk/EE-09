@@ -32,7 +32,7 @@
         "lang": "PHP",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x09/EE.09-01-21.01-SG REPREZENTACJA V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-01-21.01-SG REPREZENTACJA V2.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2020",
@@ -50,7 +50,7 @@
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x09/EE.09-02-20.01-SG STACJA PALIW V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-02-20.01-SG STACJA PALIW V2.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2020",
@@ -140,7 +140,7 @@
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x09/EE.09-05-19.06 CIĄGI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-05-19.06 CIĄGI.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2020",
@@ -167,7 +167,7 @@
         "lang": "PHP",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x09/EE.09-06-20.06-SG BIURO PODRÓŻY V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"resources/public/data/x034/EE.09-02-20.06-SG BIURO PODRÓŻY.pdf\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-06-20.06-SG BIURO PODRÓŻY V2.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2020",
@@ -176,7 +176,7 @@
         "lang": "PHP",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x09/EE.09-06-21.01-SG LOTNISKO.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-06-21.01-SG LOTNISKO.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2021",
@@ -239,7 +239,7 @@
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-14.05-07 LICZBY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/E.14-14.05-07 LICZBY.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2015",
@@ -248,7 +248,7 @@
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-01-16.08 HASŁO.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/E.14-01-16.08 HASŁO.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2017",
@@ -311,7 +311,7 @@
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-04-17.06 SALON.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/E.14-04-17.06 SALON.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2019",
