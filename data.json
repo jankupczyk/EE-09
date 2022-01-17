@@ -208,8 +208,17 @@
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "EE.09-02-22.01-SG",
-        "lang": "18.01.2022",
+        "title": "EE.09-02-22.01-SG POGODA",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x09/EE.09-02-22.01-SG POGODA.zip\" download=\"\"></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2022",
+        "type": "EE.09",
+        "title": "EE.09-03-22.01-SG SAMOCHODY NA TELEFON",
+        "lang": "PHP",
         "status": "UNCOMPLTD",
         "download": "<a href=\"\" download=\"\"></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
@@ -217,8 +226,8 @@
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "EE.09-03-22.01-SG",
-        "lang": "19.01.2022",
+        "title": "EE.09-04-22.01-SG PUBLIKACJE MATEMATYCZNE",
+        "lang": "PHP/JS",
         "status": "UNCOMPLTD",
         "download": "<a href=\"\" download=\"\"></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
