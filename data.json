@@ -211,7 +211,7 @@
         "title": "EE.09-02-22.01-SG POGODA",
         "lang": "PHP",
         "status": "COMPLTD",
-        "download": "<a href=\"resources/public/data/x09/EE.09-02-22.01-SG POGODA.zip\" download=\"\"></a>",
+        "download": "<a href=\"resources/public/data/x09/EE.09-02-22.01-SG POGODA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
