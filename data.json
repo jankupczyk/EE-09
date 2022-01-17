@@ -217,8 +217,8 @@
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "EE.09-03-22.01-SG SAMOCHODY NA TELEFON",
-        "lang": "PHP",
+        "title": "?",
+        "lang": "?",
         "status": "UNCOMPLTD",
         "download": "<a href=\"\" download=\"\"></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
@@ -226,8 +226,26 @@
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "EE.09-04-22.01-SG PUBLIKACJE MATEMATYCZNE",
-        "lang": "PHP/JS",
+        "title": "?",
+        "lang": "?",
+        "status": "UNCOMPLTD",
+        "download": "<a href=\"\" download=\"\"></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2022",
+        "type": "EE.09",
+        "title": "?",
+        "lang": "?",
+        "status": "UNCOMPLTD",
+        "download": "<a href=\"\" download=\"\"></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2022",
+        "type": "EE.09",
+        "title": "?",
+        "lang": "?",
         "status": "UNCOMPLTD",
         "download": "<a href=\"\" download=\"\"></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
