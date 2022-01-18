@@ -217,19 +217,19 @@
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "?",
-        "lang": "?",
-        "status": "UNCOMPLTD",
-        "download": "<a href=\"\" download=\"\"></a>",
+        "title": "EE.09-03-22.01-SG POGOTOWIE",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x09/EE.09-03-22-01-SG POGOTOWIE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2022",
         "type": "EE.09",
-        "title": "?",
-        "lang": "?",
-        "status": "UNCOMPLTD",
-        "download": "<a href=\"\" download=\"\"></a>",
+        "title": "EE.09-04-22.01-SG FORUM O PSACH",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x09/EE.09-04-22.01-SG FORUM O PSACH.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
