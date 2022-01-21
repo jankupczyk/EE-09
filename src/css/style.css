@@ -59,9 +59,29 @@ a>i {
   text-decoration: underline;
 }
 
+td[data-label="TITLE"]:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ToolTip {
+  text-align: center;
+  margin-left: 38%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #0D1117;
+  color: #C9D1D9;
+  overflow-y: scroll;
+  transition: opacity 750ms;
+}
+
 @media (max-width: 950px) {
   .table thead {
     display: none;
+  }
+
+  a>i {
+    cursor: pointer;
   }
 
   .table,
@@ -78,8 +98,9 @@ a>i {
 
   .table td {
     padding-left: 50%;
-    text-align: left;
+    text-align: center;
     position: relative;
+    z-index: 9999;
   }
 
   .table td::before {
