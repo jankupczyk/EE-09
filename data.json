@@ -271,6 +271,15 @@
     {
         "year": "2015",
         "type": "E.14",
+        "title": "E.14-01-15.01 DZIAŁANIA",
+        "lang": "PHP/JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-01-15.01 DZIAŁANIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2015",
+        "type": "E.14",
         "title": "E.14-01-16.08 HASŁO",
         "lang": "JS",
         "status": "COMPLTD",
@@ -410,6 +419,15 @@
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-07-17.06 AGENCJA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2018",
+        "type": "E.14",
+        "title": "E.14-11-19.01 ZDJĘCIA NASZYCH PUPILÓW",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-11-19.01 ZDJĘCIA NASZYCH PUPILÓW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
     }
 ]

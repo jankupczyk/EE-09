@@ -37,6 +37,7 @@
 
     <main class="container">
 
+        
         <table class="table" id="egzaminyTable">
             <thead>
                 <th><a href="javascript:SortTable(0)">year</a></th>
@@ -49,10 +50,13 @@
             </thead>
             <tbody id="tableBody"></tbody>
         </table>
-
+        
     </main>
-
+    
     <div class="ToolTip"></div>
+    
+    <input type="text" id="inputed" class="form-control" placeholder="Search or jump to..." autocomplete="off" value
+        data-throttled-autosubmit accept-charset="utf-8" onkeyup="Search_Bar_Data()">
 
     <footer>
         <div class="footer-container">
@@ -116,7 +120,7 @@
 
                 tr.append(createElement("td", {
                     dataset: {
-                        label: key.toUpperCase()
+                        label: key.toUpperCase(),
                     },
                     innerHTML: content
                 }));
@@ -143,6 +147,7 @@
 
         setupTable();
     </script>
+    <script src="src/js/Search.js"></script>
     <script src="src/js/SortTable.js"></script>
 </body>
 
