@@ -75,6 +75,22 @@ td[data-label="TITLE"]:hover {
   transition: opacity 750ms;
 }
 
+.form-control {
+  margin: 10px;
+  height: 25px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: #707bac;
+}
+
+::marker {
+  display: none;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  border: 0 0px transparent;
+}
+
 @media (max-width: 950px) {
   .table thead {
     display: none;
