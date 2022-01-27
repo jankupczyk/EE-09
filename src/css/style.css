@@ -76,11 +76,11 @@ td[data-label="TITLE"]:hover {
 }
 
 .form-control {
-  margin: 10px;
-  height: 25px;
-  width: 300px;
+  height: 30px;
+  width: 30%;
   border-radius: 5px;
   border-color: #707bac;
+  margin-bottom: 25px;
 }
 
 ::marker {

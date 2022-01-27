@@ -1,14 +1,13 @@
-Search_Bar_Data = () => {
-    let input = document.getElementById('inputed').value
-    input = input.toLowerCase();
-    let x = document.querySelectorAll('td');
+document.getElementById("inputed").addEventListener("keyup", (e) => {
+    let searchQuery = e.target.value.toLowerCase();
+    let rows = document.querySelectorAll('tr');
 
-    for (i = 0; i < x.length; i++) {
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display = "none";
+    for (i = 1; i < rows.length; i++) {
+        if (!rows[i].childNodes[2].textContent.toLowerCase().includes(searchQuery)) {
+            rows[i].style.display = "none";
         }
         else {
-            x[i].style.display = "list-item";
+            rows[i].style.display = "table-row";
         }
     }
-}
+});
