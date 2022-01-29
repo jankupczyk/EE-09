@@ -185,7 +185,7 @@
         "lang": "PHP",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x09/EE.09 II 26.06 INTERNETOWY SKLEP Z EKO-WARZYWAMI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/EE.09-02-21.06-SG INTERNETOWY SKLEP Z EKO-WARZYWAMI.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2021",
@@ -307,11 +307,29 @@
     {
         "year": "2017",
         "type": "E.14",
+        "title": "E.14-01-19.01 FILMOTEKA",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-01-19.01 FILMOTEKA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-01-19.01 FILMOTEKA.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
+    },
+    {
+        "year": "2017",
+        "type": "E.14",
         "title": "E.14-02-17.01 SAMOCHODY V2",
         "lang": "PHP",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-02-17.01 SAMOCHODY V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"resources/public/data/x034/E.14-02-17.01 SAMOCHODY V2.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
+    },
+    {
+        "year": "2017",
+        "type": "E.14",
+        "title": "E.14-02-19.01 FORMATY HTML",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-02-19.01 FORMATY HTML.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-02-19.01 FORMATY HTML.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     },
     {
         "year": "2015",
@@ -348,6 +366,15 @@
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-04-17.06 SALON.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"resources/public/data/x034/E.14-04-17.06 SALON.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
+    },
+    {
+        "year": "2016",
+        "type": "E.14",
+        "title": "E.14-04-19.01 KAWA",
+        "lang": "JS",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-04-19.01 KAWA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
         "year": "2019",
@@ -388,6 +415,15 @@
     {
         "year": "2018",
         "type": "E.14",
+        "title": "E.14-05-19.01 IDZIEMY NA GRZYBY",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-05-19.01 IDZIEMY NA GRZYBY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-05-19.01 IDZIEMY NA GRZYBY.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
+    },
+    {
+        "year": "2018",
+        "type": "E.14",
         "title": "E.14-05-19.06 IT",
         "lang": "JS",
         "status": "COMPLTD",
@@ -410,6 +446,15 @@
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-06-18.06 PIZZERIA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"resources/public/data/x034/E.14-06-18.06 PIZZERIA.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
+    },
+    {
+        "year": "2018",
+        "type": "E.14",
+        "title": "E.14-06-19.01 BIURO PODRÓŻY",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-06-19.01 BIURO PODRÓŻY.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
         "pdf": "<a href=\"\" download=\"\"></a>"
     },
     {
@@ -424,10 +469,28 @@
     {
         "year": "2018",
         "type": "E.14",
+        "title": "E.14-08-19.01 DYSTRYBUCJA SPRZĘTU",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-08-19.01 DYSTRYBUCJA SPRZĘTU.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2018",
+        "type": "E.14",
+        "title": "E.14-10-19.01 WILKI",
+        "lang": "PHP",
+        "status": "COMPLTD",
+        "download": "<a href=\"resources/public/data/x14/E.14-10-19.01 WILKI.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+        "pdf": "<a href=\"\" download=\"\"></a>"
+    },
+    {
+        "year": "2018",
+        "type": "E.14",
         "title": "E.14-11-19.01 ZDJĘCIA NASZYCH PUPILÓW",
         "lang": "JS",
         "status": "COMPLTD",
         "download": "<a href=\"resources/public/data/x14/E.14-11-19.01 ZDJĘCIA NASZYCH PUPILÓW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
-        "pdf": "<a href=\"\" download=\"\"></a>"
+        "pdf": "<a href=\"resources/public/data/x034/E.14-11-19.01 ZDJĘCIA NASZYCH PUPILÓW.pdf\" download=\"\"><i class=\"far fa-file-pdf\"></i></a>"
     }
 ]
