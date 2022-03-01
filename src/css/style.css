@@ -8,7 +8,7 @@ body {
   font-family: Verdana, sans-serif;
 }
 
-a>i {
+a > i {
   cursor: pointer;
 }
 
@@ -27,12 +27,12 @@ a>i {
 }
 
 .table th {
-  background-color: #8892BF;
+  background-color: #8892bf;
   color: #fff;
 }
 
 .table tbody tr:nth-child(even) {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .footer-container {
@@ -46,7 +46,7 @@ a>i {
 .author {
   text-align: center;
   align-items: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .noopener-noreferrer {
@@ -69,10 +69,57 @@ td[data-label="TITLE"]:hover {
   margin-left: 38%;
   position: fixed;
   z-index: 9999;
-  background-color: #0D1117;
-  color: #C9D1D9;
+  background-color: #0d1117;
+  color: #c9d1d9;
   overflow-y: scroll;
   transition: opacity 750ms;
+}
+
+.btn-push {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-size: 15px;
+  background: #f7f7f7;
+  padding: 5px 15px;
+  margin: 5 15px;
+  border: 1px solid #c4c4c4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 0px #c4c4c4;
+  -moz-box-shadow: 0px 5px 0px #c4c4c4;
+  -ms-box-shadow: 0px 5px 0px #c4c4c4;
+  -o-box-shadow: 0px 5px 0px #c4c4c4;
+  box-shadow: 0px 5px 0px #c4c4c4;
+  color: #222;
+  text-shadow: 1px 1px 1px #fff;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+}
+
+.btn-push.purple {
+  background: #8892bf;
+  color: #fff;
+  border: 1px solid #8892bf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 0px #8892bf;
+  -moz-box-shadow: 0px 5px 0px #8892bf;
+  -ms-box-shadow: 0px 5px 0px #8892bf;
+  -o-box-shadow: 0px 5px 0px #8892bf;
+  box-shadow: 0px 5px 0px #8892bf;
+  text-shadow: 1px 1px 1px #8892bf;
+}
+
+.btn-push.purple:hover {
+  transform: scale(0.99);
 }
 
 .form-control {
@@ -81,6 +128,10 @@ td[data-label="TITLE"]:hover {
   border-radius: 5px;
   border-color: #707bac;
   margin-bottom: 25px;
+}
+
+.view-sort{
+  cursor: pointer;
 }
 
 ::marker {
@@ -96,7 +147,7 @@ td[data-label="TITLE"]:hover {
     display: none;
   }
 
-  a>i {
+  a > i {
     cursor: pointer;
   }
 

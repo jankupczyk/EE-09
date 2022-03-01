@@ -8,6 +8,6 @@ document.getElementById("inputed").addEventListener("keyup", (e) => {
         }
         else {
             row.style.display = "table-row";
-        }        
+        }
     });
 });
