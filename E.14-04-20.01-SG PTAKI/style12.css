@@ -1,8 +1,0 @@
-html,body{margin:0px;padding:0px;font-family:"Verdana"}
-#menu{background-color:SandyBrown;height:120px;width:60%;float:left}
-#logo{background-color:Sienna;color:white;text-align:center;height:120px;width:40%;float:left}
-#lewy{background-color:Sienna;color:white;height:700px;width:60%;float:left}
-#prawy{background-color:SandyBrown;height:700px;width:40%;float:left}
-#menu a{background-color:green;color:yellow;padding:20px 50px 20px 50px;line-height:120px}
-#stopka{background-color:#4D1900;color:white;text-align:right;clear:both}
-#menu a:hover{background-color:yellow;color:green}
