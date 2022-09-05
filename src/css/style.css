@@ -123,11 +123,12 @@ td[data-label="TITLE"]:hover {
 }
 
 .form-control {
-  height: 30px;
+  height: 32px;
   width: 30%;
   border-radius: 5px;
   border-color: #707bac;
   margin-bottom: 25px;
+  color: #00008B;
 }
 
 .view-sort{
