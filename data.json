@@ -270,6 +270,51 @@
     "pdf": "<a href=\"\" download=\"\"></a>"
   },
   {
+    "year": "2023",
+    "type": "EE.09",
+    "title": "EE.09-01-23.01-SG SEKRETARIAT",
+    "lang": "PHP",
+    "status": "COMPLTD",
+    "download": "<a href=\"resources/public/data/x09/EE.09-01-23.01-SG SEKRETARIAT.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+    "pdf": "<a href=\"\" download=\"\"></a>"
+  },
+  {
+    "year": "2023",
+    "type": "EE.09",
+    "title": "EE.09-02-23.01-SG GALERIA V2",
+    "lang": "JS",
+    "status": "COMPLTD",
+    "download": "<a href=\"resources/public/data/x09/EE.09-02-23.01-SG GALERIA V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+    "pdf": "<a href=\"\" download=\"\"></a>"
+  },
+  {
+    "year": "2023",
+    "type": "EE.09",
+    "title": "EE.09-03-23.01-SG GAZETA CODZIENNA",
+    "lang": "JS",
+    "status": "COMPLTD",
+    "download": "<a href=\"resources/public/data/x09/EE.09-03-23.01-SG GAZETA CODZIENNA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+    "pdf": "<a href=\"\" download=\"\"></a>"
+  },
+  {
+    "year": "2023",
+    "type": "EE.09",
+    "title": "EE.09-04-23.01-SG WIZYTÓWKI PRACOWNIKÓW",
+    "lang": "PHP",
+    "status": "COMPLTD",
+    "download": "<a href=\"resources/public/data/x09/EE.09-04-23.01-SG WIZYTÓWKI PRACOWNIKÓW.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+    "pdf": "<a href=\"\" download=\"\"></a>"
+  },
+  {
+    "year": "2023",
+    "type": "EE.09",
+    "title": "EE.09-01-23.06-SG FORUM O PSACH V2",
+    "lang": "PHP",
+    "status": "COMPLTD",
+    "download": "<a href=\"resources/public/data/x09/EE.09-01-23.06-SG FORUM O PSACH V2.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+    "pdf": "<a href=\"\" download=\"\"></a>"
+  },
+  {
     "year": "2014",
     "type": "E.14",
     "title": "E.14-14.05-07 LICZBY",

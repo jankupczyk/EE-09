@@ -91,6 +91,9 @@ function GetDateSortingKey(format, text) {
 			case "2028": m = String(18); break;
 			case "2029": m = String(19); break;
 			case "2030": m = String(20); break;
+			case "2031": m = String(21); break;
+			case "2032": m = String(22); break;
+			case "2033": m = String(23); break;
 			default: m = String(0);
 		}
 	}
