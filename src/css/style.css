@@ -127,11 +127,12 @@ td[data-label="TITLE"]:hover {
   width: 30%;
   border-radius: 5px;
   border-color: #707bac;
-  margin-bottom: 25px;
-  color: #00008B;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #00008b;
 }
 
-.view-sort{
+.view-sort {
   cursor: pointer;
 }
 
@@ -180,5 +181,24 @@ td[data-label="TITLE"]:hover {
     font-size: 15px;
     font-weight: bold;
     text-align: left;
+  }
+}
+
+.version-info {
+  font-size: 12px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  background-color: #8892bf;
+  padding: 2px 5px;
+  border-radius: 2px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+@media screen and (max-width: 950px) {
+  .version-info {
+    font-size: 10px;
+    padding: 1px 3px;
   }
 }
