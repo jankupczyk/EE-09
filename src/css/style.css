@@ -186,7 +186,6 @@ td[data-label="TITLE"]:hover {
 
 .version-info {
   font-size: 12px;
-  position: fixed;
   top: 5px;
   right: 5px;
   background-color: #8892bf;
@@ -198,7 +197,7 @@ td[data-label="TITLE"]:hover {
 
 @media screen and (max-width: 950px) {
   .version-info {
-    font-size: 10px;
+    font-size: 11px;
     padding: 1px 3px;
   }
 }
