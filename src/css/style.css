@@ -3,6 +3,15 @@
   margin: 0 auto;
 }
 
+.no-rows-found {
+  font-size: 15px;
+  display: none;
+  color: red;
+  text-align: center;
+  align-items: center;
+  margin: 12%;
+}
+
 body {
   padding: 15px;
   font-family: Verdana, sans-serif;
@@ -122,13 +131,20 @@ td[data-label="TITLE"]:hover {
   transform: scale(0.99);
 }
 
+.form-control-container {
+  text-align: center;
+}
+
 .form-control {
   height: 32px;
-  width: 30%;
+  width: 70%;
+  max-width: 600px;
   border-radius: 5px;
   border-color: #707bac;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  margin: 25px auto 20px;
+  display: block;
+  box-sizing: border-box;
+  padding: 5px 10px;
   color: #00008b;
 }
 
@@ -195,9 +211,16 @@ td[data-label="TITLE"]:hover {
   z-index: 1;
 }
 
-@media screen and (max-width: 950px) {
+@media (max-width: 600px) {
+  .form-control {
+    width: 90%;
+    max-width: none;
+  }
+}
+
+/* @media screen and (max-width: 950px) {
   .version-info {
     font-size: 11px;
     padding: 1px 3px;
   }
-}
+} */

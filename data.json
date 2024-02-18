@@ -315,6 +315,24 @@
     "pdf": "<a href=\"\" download=\"\"></a>"
   },
   {
+    "year": "2024",
+    "type": "EE.09",
+    "title": "EE.09-01-24.01 BIURO EUROPA",
+    "lang": "PHP",
+    "status": "COMPLTD",
+    "download": "<a href=\"resources/public/data/x09/EE.09-01-24.01 BIURO EUROPA.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+    "pdf": "<a href=\"\" download=\"\"></a>"
+  },
+  {
+    "year": "2024",
+    "type": "EE.09",
+    "title": "EE.09-01-24.01 POGOTOWIE KOMPUTEROWE",
+    "lang": "JS",
+    "status": "COMPLTD",
+    "download": "<a href=\"resources/public/data/x09/EE.09-01-24.01 POGOTOWIE KOMPUTEROWE.zip\" download=\"\"><i class=\"fa fa-download\"></i></a>",
+    "pdf": "<a href=\"\" download=\"\"></a>"
+  },
+  {
     "year": "2014",
     "type": "E.14",
     "title": "E.14-14.05-07 LICZBY",

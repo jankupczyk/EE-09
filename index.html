@@ -11,7 +11,7 @@
     />
     <meta
       name="keywords"
-      content="ee09, ee09 odpowiedzi, ee09 rozwiązania, ee09 praktyczny, ee09 blogspot, ee09 arkusz, ee09 pdf, e14, e14 odpowiedzi, e14 rozwiązania, e14 blogspot, e14 kwalifikacja, e14 arkusze, e14 praktyczny, e14 pdf"
+      content="ee09, ee09 odpowiedzi, ee09 rozwiązania, ee09 praktyczny, ee09 blogspot, ee09 arkusz, ee09 pdf, e14, e14 odpowiedzi, e14 rozwiązania, e14 blogspot, e14 kwalifikacja, e14 arkusze, e14 praktyczny, e14 pdf, technik informatyk"
     />
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
@@ -30,11 +30,6 @@
       content="Rozwiązania testów i arkuszy egzaminów praktycznych EE.09 i E.14. Znajdziesz tutaj wszystkie rozwiązania arkuszy z poprzednich lat."
     />
     <meta property="og:image" content="" />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@Jan57965221" />
-    <meta name="twitter:creator" content="@Jan57965221" />
-    <meta property="og:url" content="https://kupczyk.netlify.app/" />
 
     <link rel="shortcut icon" type="image/png" sizes="" href="📚" />
     <link rel="favicon" type="image/png" sizes="" href="📚" />
@@ -58,7 +53,7 @@
         type="text"
         id="inputed"
         class="form-control"
-        placeholder="Search in 61 exams or jump to..."
+        placeholder="Search in 63 exams or jump to..."
         autocomplete="off"
         value
         data-throttled-autosubmit
@@ -71,14 +66,25 @@
     <main class="container">
       <table class="table" id="egzaminyTable">
         <thead>
-          <th><a href="javascript:SortTable(0)">year</a></th>
-          <th><a href="javascript:SortTable(1)">type</a></th>
-          <th><a href="javascript:SortTable(1)">title</a></th>
+          <th>
+            <a href="javascript:SortTable(0)">year</a>
+            <span id="sortIndicator0"></span>
+          </th>
+          <th>
+            <a href="javascript:SortTable(1)">type</a>
+            <span id="sortIndicator1"></span>
+          </th>
+          <th>
+            <a href="javascript:SortTable(1)">title</a>
+            <span id="sortIndicator2"></span>
+          </th>
           <th>
             <a href="javascript:SortTable(3, 'T')">lang</a>
+            <span id="sortIndicator3"></span>
           </th>
           <th>
             <a href="javascript:SortTable(3, 'T')">status</a>
+            <span id="sortIndicator4"></span>
           </th>
           <th>download (.zip)</th>
           <th>download (.pdf)</th>
@@ -88,6 +94,8 @@
     </main>
 
     <div class="ToolTip"></div>
+
+    <div id="noRowsFound" class="no-rows-found"><b>No rows found.</b></div>
 
     <footer>
       <div class="footer-container">
@@ -100,7 +108,6 @@
           &copy; 2019
           <span
             ><a
-              href=""
               target="_blank"
               rel="noopener noreferrer nofollw"
               class="noopener-noreferrer footer"

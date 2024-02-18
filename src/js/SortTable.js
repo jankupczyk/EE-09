@@ -1,40 +1,70 @@
 var TableIDvalue = "egzaminyTable";
-
 var TableLastSortedColumn = -1;
+var SortDirection = {
+    NONE: 0,
+    ASCENDING: 1,
+    DESCENDING: 2
+};
+var currentSortDirection = SortDirection.NONE;
+
 function SortTable() {
-	var sortColumn = parseInt(arguments[0]);
-	var type = arguments.length > 1 ? arguments[1] : 'T';
-	var dateformat = arguments.length > 2 ? arguments[2] : '';
-	var table = document.getElementById(TableIDvalue);
-	var tbody = table.getElementsByTagName("tbody")[0];
-	var rows = tbody.getElementsByTagName("tr");
-	var arrayOfRows = new Array();
-	type = type.toUpperCase();
-	dateformat = dateformat.toLowerCase();
-	for (var i = 0, len = rows.length; i < len; i++) {
-		arrayOfRows[i] = new Object;
-		arrayOfRows[i].oldIndex = i;
-		var celltext = rows[i].getElementsByTagName("td")[sortColumn].innerHTML.replace(/<[^>]*>/g, "");
-		if (type == 'D') { arrayOfRows[i].value = GetDateSortingKey(dateformat, celltext); }
-		else {
-			var re = type == "N" ? /[^\.\-\+\d]/g : /[^a-zA-Z0-9]/g;
-			arrayOfRows[i].value = celltext.replace(re, "").substr(0, 25).toLowerCase();
-		}
-	}
-	if (sortColumn == TableLastSortedColumn) { arrayOfRows.reverse(); }
-	else {
-		TableLastSortedColumn = sortColumn;
-		switch (type) {
-			case "N": arrayOfRows.sort(CompareRowOfNumbers); break;
-			case "D": arrayOfRows.sort(CompareRowOfNumbers); break;
-			default: arrayOfRows.sort(CompareRowOfText);
-		}
-	}
-	var newTableBody = document.createElement("tbody");
-	for (var i = 0, len = arrayOfRows.length; i < len; i++) {
-		newTableBody.appendChild(rows[arrayOfRows[i].oldIndex].cloneNode(true));
-	}
-	table.replaceChild(newTableBody, tbody);
+    var sortColumn = parseInt(arguments[0]);
+    var type = arguments.length > 1 ? arguments[1] : 'T';
+    var dateformat = arguments.length > 2 ? arguments[2] : '';
+    var table = document.getElementById(TableIDvalue);
+    var tbody = table.getElementsByTagName("tbody")[0];
+    var rows = tbody.getElementsByTagName("tr");
+    var arrayOfRows = new Array();
+    type = type.toUpperCase();
+    dateformat = dateformat.toLowerCase();
+    for (var i = 0, len = rows.length; i < len; i++) {
+        arrayOfRows[i] = new Object;
+        arrayOfRows[i].oldIndex = i;
+        var celltext = rows[i].getElementsByTagName("td")[sortColumn].innerHTML.replace(/<[^>]*>/g, "");
+        if (type == 'D') { arrayOfRows[i].value = GetDateSortingKey(dateformat, celltext); }
+        else {
+            var re = type == "N" ? /[^\.\-\+\d]/g : /[^a-zA-Z0-9]/g;
+            arrayOfRows[i].value = celltext.replace(re, "").substr(0, 25).toLowerCase();
+        }
+    }
+    if (sortColumn == TableLastSortedColumn) {
+        currentSortDirection = (currentSortDirection === SortDirection.ASCENDING) ? SortDirection.DESCENDING : SortDirection.ASCENDING;
+    } else {
+        TableLastSortedColumn = sortColumn;
+        currentSortDirection = SortDirection.ASCENDING;
+    }
+    switch (type) {
+        case "N":
+        case "D":
+            arrayOfRows.sort(CompareRowOfNumbers);
+            break;
+        default:
+            arrayOfRows.sort(CompareRowOfText);
+    }
+    if (currentSortDirection === SortDirection.DESCENDING) {
+        arrayOfRows.reverse();
+    }
+    var newTableBody = document.createElement("tbody");
+    for (var i = 0, len = arrayOfRows.length; i < len; i++) {
+        newTableBody.appendChild(rows[arrayOfRows[i].oldIndex].cloneNode(true));
+    }
+    table.replaceChild(newTableBody, tbody);
+    updateSortIndicators(sortColumn, currentSortDirection);
+}
+
+function updateSortIndicators(sortColumn, sortDirection) {
+    var headers = document.getElementsByTagName('th');
+    for (var i = 0; i < headers.length; i++) {
+        if (i === sortColumn) {
+            if (sortDirection === SortDirection.ASCENDING) {
+                headers[i].querySelector('span').innerHTML = '↓';
+            } else {
+                headers[i].querySelector('span').innerHTML = '↑';
+            }
+        } else {
+            headers[i].querySelector('span').innerHTML = '';
+        }
+    }
 }
 
 function CompareRowOfText(a, b) {

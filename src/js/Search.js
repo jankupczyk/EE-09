@@ -30,6 +30,9 @@ function throttle(func, delay) {
     throttle((e) => {
       let searchQuery = e.target.value.trim().toLowerCase();
       let rows = document.querySelectorAll("tr");
+      let noRowsFound = document.getElementById("noRowsFound");
+  
+      let foundRows = false;
   
       Array.from(rows).slice(1).forEach((row) => {
         let title = row.childNodes[2].textContent.toLowerCase();
@@ -38,6 +41,7 @@ function throttle(func, delay) {
           row.style.display = "none";
         } else {
           row.style.display = "table-row";
+          foundRows = true;
         }
       });
   
@@ -45,6 +49,12 @@ function throttle(func, delay) {
         Array.from(rows).slice(1).forEach((row) => {
           row.style.display = "table-row";
         });
+      }
+  
+      if (foundRows) {
+        noRowsFound.style.display = "none";
+      } else {
+        noRowsFound.style.display = "block";
       }
     }, 300)
   );
